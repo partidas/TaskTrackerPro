@@ -1,0 +1,21 @@
+Project: Task Manager CRUD App
+Entity: TaskItem
+Fields:
+    - Id: int
+        - Unique Identifier
+    - Title: string
+        - Short name of task
+    - Description: string
+        - Details about the task
+    - IsCompleted: bool
+        - Whether the task has been completed
+
+API Endpoints:
+    - GET /api/tasks
+        - Retrieves all tasks
+    - POST /api/tasks
+        - Creates a new task
+    - PUT /api/tasks/{id}
+        - Updates a specific task
+    - DELETE /api/tasks/{id}
+        - Deletes a specific task
